@@ -1,0 +1,27 @@
+FROM pyotr777/openfoam-u12
+
+MAINTAINER Bryzgalov Peter <peterbryz@yahoo.com>
+
+# Install Python and Jupyter
+
+ENV DEBIAN_FRONTEND noninteractive
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    checkinstall bzip2 ca-certificates sudo locales \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y gfortran && apt-get -y autoremove
+
+RUN apt-get install -y libtiff4-dev libjpeg8-dev && apt-get -y autoremove
+RUN apt-get install -y python-setuptools python-pip python-numpy python-scipy python-pandas \
+    python-tk && apt-get -y autoremove
+
+RUN /usr/bin/python --version
+
+RUN pip install -U pip
+RUN pip install nose
+RUN pip install "ipython[notebook]"
+RUN pip install -U matplotlib
+RUN pip install -U Pillow
+
+CMD ["jupyter","notebook","--no-browser","--ip=0.0.0.0"]

@@ -1,0 +1,20 @@
+FROM pyotr777/jupyter-foam:u12
+
+ENV DEBIAN_FRONTEND noninteractive
+
+# Install fenics and prepare plot_vtk_matlib tutorial
+
+# Install Fenics
+# https://fenicsproject.org/download/
+
+RUN add-apt-repository ppa:fenics-packages/fenics
+RUN apt-get update
+RUN apt-get install -y fenics
+
+# Install plot_vtk_matplotlib
+# https://github.com/fangohr/plot_vtk_matplotlib
+
+WORKDIR /root
+RUN git clone https://github.com/fangohr/plot_vtk_matplotlib.git
+WORKDIR /root/plot_vtk_matplotlib
+RUN pip install .

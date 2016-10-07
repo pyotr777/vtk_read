@@ -1,0 +1,26 @@
+FROM ubuntu:12.04
+
+MAINTAINER Bryzgalov Peter <peterbryz@yahoo.com>
+
+# Install OpenFOAM and Paraview on Ubuntu
+# Refer http://openfoam.org/download/2-2-1-ubuntu/
+
+ENV VERS precise
+RUN echo $VERS
+
+RUN apt-get update && apt-get install -y git-core  build-essential \
+    python python-dev \
+    software-properties-common python-software-properties wget\
+    libreadline-gplv2-dev
+RUN apt-get install -y libglu1-mesa-dev libqt4-opengl-dev
+
+RUN sh -c "echo deb http://dl.openfoam.org/ubuntu $VERS main > /etc/apt/sources.list.d/openfoam.list"
+RUN apt-key adv --keyserver http://dl.openfoam.org/gpg.key --recv-keys 6C0DAC728B29D817
+
+RUN apt-get update
+RUN apt-get install -y openfoam221
+RUN apt-get install -y paraviewopenfoam3120
+
+RUN apt-get install -y libvtk5-dev libvtk5.8 python-vtk python-pyvtk
+
+RUN echo ". /opt/openfoam221/etc/bashrc" >> $HOME/.bashrc
