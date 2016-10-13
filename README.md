@@ -1,4 +1,4 @@
-# OpenFOAM datasets visualisation with matlplotlib and python
+# OpenFOAM data visualisation with matlplotlib
  
 Convert OpenFOAM data to VTK format with foamToVTK*. Create images and movies of 2D and 3D plots of scalar and vector data using python and matplotlib.
 
