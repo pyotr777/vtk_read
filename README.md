@@ -1,15 +1,15 @@
 # OpenFOAM datasets visualisation with VTK and python
  
-Convert OpenFOAM data to VTK format with foamToVTK*. Make png images and mp4 movie of scalar and vector data in 3D or 2D projection.
+Convert OpenFOAM data to VTK format with foamToVTK*. Make png images and mp4 movies of scalar and vector data in 3D or 2D projection.
 
 \* foamToVTK is included in OpenFOAM distribution.
 
-### Sample data
+## Sample data
 Flow between two plane-parallel plates. Top plate is moving with a horizontal velocity V relative to the other and there is 
 no pressure gradient.
 https://www.scribd.com/document/273227125/OpenFOAM-Tutorial
 
-## Environment 
+## Execution environment 
 
 Run Jupyter notebook in Docker container.
 
@@ -30,10 +30,11 @@ in VTK folder
 
 Notebook | Description
 --- | ---
-plot_scalar_in_3D_and_2D.ipynb | Compare plotting in 3D and plane projection of scalar data.
 Read_VTK.ipynb | Tests reading VTK data and plotting it.
-save to flie.ipynb | Save all steps of velocity dynamic into png files with 2D projections.  
+plot_scalar_in_3D_and_2D.ipynb | Compare plotting in 3D and 2D plane projection of scalar data.
 velocity_plot_2D.ipynb | Plot velocity vector field in 2D projection.
+save to flie.ipynb | Save velocity dynamics into series of png files with 2D projections.
+
 
 
 
