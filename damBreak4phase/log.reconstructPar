@@ -1,0 +1,767 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.4.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.4.0-dcea1e13ff76
+Exec   : reconstructPar
+Date   : Oct 13 2016
+Time   : 16:59:10
+Host   : "q02-036"
+PID    : 12863
+Case   : /work/job.5435111/damBreak4phaseFine
+nProcs : 1
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Reconstructing fields for mesh region0
+
+Time = 0.05
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.1
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.15
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.2
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.25
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.3
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.35
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.4
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.45
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.5
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.55
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.6
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.65
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.7
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.75
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.8
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.85
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.9
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 0.95
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+Time = 1
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        alpha.mercury
+        alphas
+        alpha.water
+        rho
+        p
+        alpha.oil
+        alpha.air
+
+    Reconstructing volVectorFields
+
+        U.mercury
+        U
+        U.air
+        U.water
+        U.oil
+
+    Reconstructing surfaceScalarFields
+
+        phi.air
+        phi
+        phi.mercury
+        phi.water
+        phi.oil
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+Reconstructing sets:
+End.
+
