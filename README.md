@@ -14,24 +14,24 @@ https://www.scribd.com/document/273227125/OpenFOAM-Tutorial
 ### Static images compared to Paraview
 
 ##### Pressure distribution in Paraview
-![Paraview pressure](sample_images/paraview_p1.png "Paraview pressure ")
+![Paraview pressure](ppWall/sample_images/paraview_p1.png "Paraview pressure ")
 
 ##### And in matplotlib: side panel surfaces in 3D and in XY plane (Z=0)
-![Matplotlib pressure](sample_images/vtk_p1.png "Matplotlib pressure ")
+![Matplotlib pressure](ppWall/sample_images/vtk_p1.png "Matplotlib pressure ")
 
 ##### Velocity visualisation in Paraview
-![Paraview velocity](sample_images/paraview_U1.png "Paraview velocity")
+![Paraview velocity](ppWall/sample_images/paraview_U1.png "Paraview velocity")
 
 ##### And in matplotlib
-![Matplotlib velocity](sample_images/vtk_U1.png "Matplotlib velocity")
+![Matplotlib velocity](ppWall/sample_images/vtk_U1.png "Matplotlib velocity")
 
 ### Dynamic velocity visualisation compared to Paraview
 
 ##### Velocity visualisation in Paraview
-![Paraview velocity in dynamic](sample_images/paraview_velocity.gif "Paraview velocity")
+![Paraview velocity in dynamic](ppWall/sample_images/paraview_velocity.gif "Paraview velocity")
 
 ##### And in matplotlib: side panel (Z=0)
-![Matplotlib velocity in dynamic](sample_images/out.gif "Matplotlib velocity")
+![Matplotlib velocity in dynamic](ppWall/sample_images/out.gif "Matplotlib velocity")
 
 ## Execution environment 
 
