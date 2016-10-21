@@ -54,10 +54,10 @@ in VTK folder
 
 Notebook | Description
 --- | ---
-Read_VTK.ipynb | Tests reading VTK data and plotting it.
-plot_scalar_in_3D_and_2D.ipynb | Compare plotting in 3D and 2D plane projection of scalar data.
-velocity_plot_2D.ipynb | Plot velocity vector field in 2D projection.
-save to flie.ipynb | Save velocity dynamics into series of png files with 2D projections.
+[Read_VTK.ipynb](ppWall/VTK/Read_VTK.ipynb) | Tests reading VTK data and plotting it.
+[plot\_scalar\_in\_3D\_and\_2D.ipynb](ppWall/VTK/plot_scalar_in_3D_and_2D.ipynb) | Compare plotting in 3D and 2D plane projection of scalar data.
+[velocity\_plot\_2D.ipynb](ppWall/VTK/velocity\_plot\_2D.ipynb) | Plot velocity vector field in 2D projection.
+[save2flie.ipynb](ppWall/VTK/save2flie.ipynb) | Save velocity dynamics into series of png files with 2D projections.
 
 
 
